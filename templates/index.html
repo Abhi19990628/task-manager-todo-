@@ -2,7 +2,7 @@
 {% block title %} Home {% endblock %}
 {% block content %}
 
-<h3 class="my-5">Welcoe to Your Task List</h3>
+<h3 class="my-5">Welcome to Your Task List</h3>
 <form hx-post="{% url 'create_todo' %}" hx-target="#todoList" class="mx-auto">
     {% csrf_token %}
     <div class="mb-3 row align-items-center">
